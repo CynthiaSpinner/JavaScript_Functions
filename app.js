@@ -14,7 +14,9 @@ function printOdds(count) {
 printOdds(-18);
 console.log("EXERCISE 2:\n==========\n");
 
-function checkAge(userName, age) {
+function checkAge() { //parameter-less ??
+  let userName = `Cynthia`;
+  let age = 14;  
   const aboveSixteen = `Congrats ${userName}, you can drive!`;
   const belowSixteen = `Sorry ${userName}, but you're still a child`;
   if (age >= 16) {
@@ -24,7 +26,7 @@ function checkAge(userName, age) {
   }
 }
 
-checkAge("Cynthia", 14);
+checkAge();
 
 console.log("EXERCISE 3:\n==========\n");
 function whichQuadrant(x, y) {
